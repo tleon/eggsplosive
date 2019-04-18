@@ -1,0 +1,9 @@
+.Player {
+  position: absolute;
+  background-image: url('assets/panier.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 10vh;
+  transition: 300ms;
+}

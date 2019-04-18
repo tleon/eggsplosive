@@ -1,0 +1,8 @@
+.Collectable{
+  height: 10vh;
+  width: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: 500ms;
+}
