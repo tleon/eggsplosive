@@ -72,7 +72,7 @@ img{
     }
 }
 
-button {
+.buttonPrincipal {
         color: #e7f14e !important;
         background-color: #2ac8f0;
         padding: 1.3rem;
@@ -83,6 +83,6 @@ button {
         margin-right: 800px;
         cursor: pointer;
   }
-button:hover{
+.buttonPrincipal:hover{
     background-color: black;
 }

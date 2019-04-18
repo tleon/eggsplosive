@@ -9,8 +9,18 @@
     justify-content: center;    
   }
 
-.cauldron {
-    height: 40%;
-    width: 40%;
-    margin-top: 80px;    
+.Chaudron{
+    height: 70%;
+    width: 35%;
+    justify-content: center;
+    margin-top: 110px; 
+    position: absolute 
+}
+
+.Placement{
+  margin-right: 1200px;
+}
+
+.buttonKitchen{
+  display: flex;
 }
