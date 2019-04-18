@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import Player from './Player';
+import Collectable from './Collectable';
+import Infos from './Infos';
+import Obstacles from './Obstacles';
 import './Game.css';
-import Infos from './Infos'
 
 class Game extends Component {
 
   render() {
     return (
       <div className="Game">
-      <Infos />
+        <Player />
+        <Collectable />
+        <Infos />
+        <Obstacles />
       </div>
     );
   }
