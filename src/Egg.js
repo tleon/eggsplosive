@@ -6,7 +6,6 @@ class Egg extends Component {
     return (
       <div className="App">
 
-
       </div>
     );
   }
