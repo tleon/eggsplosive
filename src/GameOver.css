@@ -1,0 +1,15 @@
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+  transition: all .8s;
+  width: 40%;
+  position: absolute;
+  z-index: 4;
+  margin: auto;
+  border-radius: 30px;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 50%);
+  opacity: 0.9;
+}
