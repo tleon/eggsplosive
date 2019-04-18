@@ -4,6 +4,7 @@ import Collectable from './Collectable';
 import BadCollectable from './BadCollectable';
 import Infos from './Infos';
 import Obstacles from './Obstacles';
+import GameOver from './GameOver';
 import './Game.css';
 
 class Game extends Component {
@@ -16,6 +17,7 @@ class Game extends Component {
     this.playerX = 50;
     this.playerY = 70;
     this.state = {
+      gameOver: false,
       collectables: [],
       badCollectables: [],
       eggs: 0,
@@ -36,9 +38,24 @@ class Game extends Component {
       , 5000);
   }
 
-  componentWillUnmount() {
+  stopGame() {
     clearInterval(this.collectablesSpawning);
     clearInterval(this.badCollectablesSpawning);
+    clearInterval(this.difficultyIncreasing);
+    const { eggs, chocolates, milk } = this.state;
+    if (!localStorage.getItem("eggs") && !localStorage.getItem("chocolates") && !localStorage.getItem("milk")){
+      localStorage.setItem("eggs", "0");
+      localStorage.setItem("chocolates", "0");
+      localStorage.setItem("milk", "0");
+    }
+    if (localStorage.getItem("eggs") && localStorage.getItem("chocolates") && localStorage.getItem("milk")) {
+      let stockedEggs = parseInt(localStorage.getItem("eggs")) + eggs;
+      localStorage.setItem("eggs", stockedEggs.toString());
+      let stockedChocolates = parseInt(localStorage.getItem("chocolates")) + chocolates;
+      localStorage.setItem("chocolates", stockedChocolates.toString());
+      let stockedMilk = parseInt(localStorage.getItem("milk")) + milk;
+      localStorage.setItem("milk", stockedMilk.toString());
+    }
   }
 
   increaseDifficulty() {
@@ -56,26 +73,31 @@ class Game extends Component {
     this.playerY = y;
   }
 
-  getItemPos = (x, y, type) => {
+  getItemPos = (x, y, type, index) => {
     if (this.playerX === x && this.playerY === y) {
       switch (type) {
         case 'egg': {
           const { eggs } = this.state;
           this.setState({ eggs: eggs + 1 })
+          this.destroyCollectable(index)
           break;
         }
         case 'milk': {
           const { milk } = this.state;
           this.setState({ milk: milk + 1 })
+          this.destroyCollectable(index)
           break;
         }
         case 'chocolate': {
           const { chocolates } = this.state;
           this.setState({ chocolates: chocolates + 1 })
+          this.destroyCollectable(index)
           break;
         }
         default: {
           this.setState({ gameOver: true });
+          this.stopGame();
+          break;
         }
       }
     }
@@ -106,10 +128,16 @@ class Game extends Component {
   }
 
   render() {
-    const { collectables, badCollectables, eggs, milk, chocolates } = this.state;
+    const { collectables, badCollectables, eggs, milk, chocolates, gameOver } = this.state;
     return (
       <div className="Game">
-        { 
+        {
+          gameOver
+            ?
+            <GameOver />
+            : null
+        }
+        {
           collectables.map((collectable, index) => (
             collectable !== "" ?
               <Collectable
