@@ -1,9 +1,10 @@
 .Player {
   position: absolute;
-  background-image: url('assets/panier.png');
+  background-image: url('assets/Lapin.png');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 10vh;
-  width: 10vh;
+  height: 20vh;
+  width: 20vh;
   transition: 300ms;
+   
 }
