@@ -27,23 +27,29 @@ class Player extends Component {
   move = (event) => {
     // Move left
     if (event.keyCode === 37) {
-      this.x -= 10;
+      if (this.x > 0) {
+        this.x -= 10;
+      }
     }
     // Move right
     if (event.keyCode === 39) {
-      this.x += 10;
+      if (this.x < 90) {
+        this.x += 10;
+      }
     }
+    const { getPlayerPos } = this.props;
+    getPlayerPos(this.x, this.y);
   }
 
   render() {
     const { x, y } = this.state;
     return (
       <div
-      className="Player"
-      style={{
-        top: `${y}%`,
-        left: `${x}%`
-      }}
+        className="Player"
+        style={{
+          top: `${y}%`,
+          left: `${x}%`
+        }}
       />
     );
   }
