@@ -5,10 +5,10 @@ class Player extends Component {
   constructor(props) {
     super(props)
     this.x = 50;
-    this.y = 70;
+    this.y = 67;
     this.state = {
       x: 50,
-      y: 70,
+      y: 67,
     }
   }
 

@@ -163,7 +163,7 @@ class Game extends Component {
               : null
           ))
         }
-        <Player getPlayerPos={this.getPlayerPos} />
+        <Player getPlayerPos={this.getPlayerPos} /> 
         <Infos eggs={eggs} milk={milk} chocolates={chocolates} />
         <Obstacles />
       </div>
