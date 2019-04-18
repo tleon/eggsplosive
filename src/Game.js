@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Collectable from './Collectable';
 import Player from './Player';
+import Collectable from './Collectable';
 import Infos from './Infos';
 import Obstacles from './Obstacles';
 
@@ -17,7 +17,7 @@ class Game extends Component {
   componentDidMount() {
     this.gameRunning = setInterval(
       () => this.generateCollectable()
-      , this.collectablespeedGeneration);
+      , this.obstacleSpeedGeneration);
   }
 
   generateCollectable() {
@@ -26,9 +26,10 @@ class Game extends Component {
     this.setState({ collectables });
   }
 
-  destroyCollectable(index) {
+  destroyCollectable = (index) => {
+    console.log('destroyed')
     const { collectables } = this.state;
-    collectables.slice(index, 1);
+    collectables[index]="";
     this.setState({ collectables });
   }
 
@@ -38,8 +39,8 @@ class Game extends Component {
       <div className="Game">
         {
           collectables.map((collectable, index) =>( 
-            collectable[index] !== "" ?
-                <Collectable type={collectable} key={`obstacleId-${index}`} checkGameOver={this.checkGameOver} />
+            collectable !== "" ?
+                <Collectable type={collectable} index={index} key={`obstacleId-${index}`} destroyCollectable={this.destroyCollectable} />
                 : null
             ))
         }

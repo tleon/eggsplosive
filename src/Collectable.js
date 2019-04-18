@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
+import './Collectable.css';
 
 class Collectable extends Component {
   constructor(props) {
     super(props);
     // Generate random position
-    const pos = Math.floor(Math.random() * 100);
+    const pos = Math.floor(Math.random() * 10);
+    this.obstacleFalling = setInterval(() => this.fall(), 100)
     this.state = {
-      posX: pos,
-      posY: 10,
+      posX: pos*10,
+      posY: -10,
     }
   }
 
-  componentDidMount() {
+  componentWillUnmount() {
+    clearInterval(this.obstacleFalling);
+  }
 
+  fall() {
+    const { posY } = this.state;
+    const newPosY = posY + 5;
+    this.setState({ posY: newPosY });
+    if (newPosY >= 100) {
+      const { destroyCollectable, index } = this.props;
+      destroyCollectable(index);
+    }
   }
 
   render() {
@@ -24,11 +36,9 @@ class Collectable extends Component {
         style={{
           top: `${posY}%`,
           left: `${posX}%`,
+          backgroundImage: `url(assets/collectables/${type}.png)`,
         }}
-      >
-        <img src={`./assets/collectables/${type}.png`} alt={type} />
-
-      </div>
+      />
     );
   }
 }
