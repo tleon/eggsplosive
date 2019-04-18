@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import ChooseCharacter from './ChooseCharacter';
-import Kitchen from './Kitchen';
-import Collection from './Collection';
 import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 
