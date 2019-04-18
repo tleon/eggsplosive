@@ -17,13 +17,15 @@ class BadCollectable extends Component {
   }
 
   fall() {
-    const { posY } = this.state;
+    const { posX, posY } = this.state;
     const newPosY = posY + 5;
     this.setState({ posY: newPosY });
     if (newPosY >= 100) {
       const { destroyBadCollectable, index } = this.props;
       destroyBadCollectable(index);
     }
+    const { getItemPos, type } = this.props;
+    getItemPos(posX, posY, type);
   }
 
   render() {
