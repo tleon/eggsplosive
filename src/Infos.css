@@ -1,3 +1,25 @@
 .Infos{
+    margin-top: 22%; 
+    padding : 0.2em;
+    padding-bottom : 1.5em;
+    color:rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder; 
+    background-color: rgb(34, 89, 177);
+    border-radius: 50px;
+    border-color: rgb(18, 42, 121);
+    border-style: solid;
+    border-width: 8px;
+    box-shadow: -6px 6px #1D2C5E, inset -6px 6px #1D2C5E;
+    font-size: 2em;
+    height: 50px;
+    position: fixed;
+    opacity: 0.9
+    
+    }
 
+img{
+    width: 1em;
+    height: 1em;
+   
 }
