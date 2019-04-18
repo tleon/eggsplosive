@@ -1,77 +1,36 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import { MDBCol, MDBCardBody, MDBCardTitle, MDBCardText, MDBCard, MDBCardImage } from "mdbreact";
+import EggCollection from './EggCollection';
+import CharactersCollection from './CharactersCollection';
+import { Tabs, Tab } from 'react-bootstrap-tabs';
 
 
 class Collection extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      eggs: [],
-      characters: [],
-      border: {
-        'junk': '#4B515D',
-        'basic': '#33b5e5',
-        'fine': '#00C851',
-        'rare': '#ffbb33',
-        'legendary': '#FF8800',
-        'exotic': '#9933CC',
-        'masterwork': '#CC0000',
-        'ascended': '#c0ca33'
-      }
-    }
-    this.getEggs();
 
   }
-  getEggs = () => {
-    axios.get('http://easteregg.wildcodeschool.fr/api/eggs').then(r => {
-      const eggs = r.data;
-      this.setState({ eggs });
-    })
-  }
-  getCharacters = () => {
-    axios.get('http://easteregg.wildcodeschool.fr/api/characters').then(r => {
-      const characters = r.data;
-      this.setState({ characters });
-    })
-  }
-  toggle = tab => () => {
-    if (this.state.activeItem !== tab) {
-      this.setState({
-        activeItem: tab
-      });
-    }
-  }
+
   render() {
-    const { eggs } = this.state;
-    const { border } = this.state;
+
     return (
-      <div className="App container-fluid">
+      <div>
         <div className="row d-flex justify-content-center" style={{ margin: "30px" }}>
           <h1>Collection</h1>
         </div>
 
-
-        <div className="row">
-
-          {eggs.map((egg, index) =>
-            <div className="col-3">
-              <MDBCol style={{ marginBottom: "10px" }}>
-                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
-                  <div className="row d-flex justify-content-center">
-                    <MDBCardImage style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
-                  </div>
-                  <MDBCardBody>
-                    <MDBCardTitle key={`name-${index}`}>{egg.name}</MDBCardTitle>
-                    <MDBCardText>
-                      {egg.power}
-                    </MDBCardText>
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBCol>
+        <Tabs onSelect={(index, label) => console.log(label + ' selected')}>
+          <Tab label="Eggs">
+            <div className="row" style={{ marginTop: "50px" }}>
+              <EggCollection></EggCollection>
             </div>
-          )}
-        </div>
+
+          </Tab>
+          <Tab label="Characters">
+            <div className="row" style={{ marginTop: "50px" }}>
+              <CharactersCollection></CharactersCollection>
+            </div>
+          </Tab>
+        </Tabs>
 
       </div>
     );
