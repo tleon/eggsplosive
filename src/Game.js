@@ -13,9 +13,14 @@ class Game extends Component {
     this.badObstacleSpeedGeneration = 1000;
     this.collectables = ["egg", "milk", "chocolate"];
     this.badCollectables = ["bomb"];
+    this.playerX = 50;
+    this.playerY = 80;
     this.state = {
       collectables: [],
       badCollectables: [],
+      eggs: 0,
+      chocolates: 0,
+      milk: 0,
     }
   }
 
@@ -37,12 +42,42 @@ class Game extends Component {
   }
 
   increaseDifficulty() {
-    if (this.badObstacleSpeedGeneration > 200) {
+    if (this.badObstacleSpeedGeneration > 100) {
       this.badObstacleSpeedGeneration -= 100;
       clearInterval(this.badCollectablesSpawning);
       this.badCollectablesSpawning = setInterval(
         () => this.generateBadCollectable()
         , this.badObstacleSpeedGeneration);
+    }
+  }
+
+  getPlayerPos = (x, y) => {
+    this.playerX = x;
+    this.playerY = y;
+  }
+
+  getItemPos = (x, y, type) => {
+    if (this.playerX === x && this.playerY === y) {
+      switch (type) {
+        case 'egg': {
+          const { eggs } = this.state;
+          this.setState({ eggs: eggs + 1 })
+          break;
+        }
+        case 'milk': {
+          const { milk } = this.state;
+          this.setState({ milk: milk + 1 })
+          break;
+        }
+        case 'chocolate': {
+          const { chocolates } = this.state;
+          this.setState({ chocolates: chocolates + 1 })
+          break;
+        }
+        default: {
+          this.setState({ gameOver: true });
+        }
+      }
     }
   }
 
@@ -71,25 +106,37 @@ class Game extends Component {
   }
 
   render() {
-    const { collectables, badCollectables } = this.state;
+    const { collectables, badCollectables, eggs, milk, chocolates } = this.state;
     return (
       <div className="Game">
         {
           collectables.map((collectable, index) => (
             collectable !== "" ?
-              <Collectable type={collectable} index={index} key={`collectableId-${index}`} destroyCollectable={this.destroyCollectable} />
+              <Collectable
+                type={collectable}
+                index={index}
+                key={`collectableId-${index}`}
+                destroyCollectable={this.destroyCollectable}
+                getItemPos={this.getItemPos}
+              />
               : null
           ))
         }
         {
           badCollectables.map((badCollectable, index) => (
             badCollectable !== "" ?
-              <BadCollectable type={badCollectable} index={index} key={`badCollectable-${index}`} destroyBadCollectable={this.destroyBadCollectable} />
+              <BadCollectable
+                type={badCollectable}
+                index={index}
+                key={`badCollectable-${index}`}
+                destroyBadCollectable={this.destroyBadCollectable}
+                getItemPos={this.getItemPos}
+              />
               : null
           ))
         }
-        <Player />
-        <Infos />
+        <Player getPlayerPos={this.getPlayerPos} />
+        <Infos eggs={eggs} milk={milk} chocolates={chocolates} />
         <Obstacles />
       </div>
     );
