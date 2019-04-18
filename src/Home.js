@@ -13,12 +13,12 @@ class Home extends Component {
             <tr>
               <td>
           <Nav.Item>
-            <NavLink to="/Collection"><button>Collection</button></NavLink>
+            <NavLink to="/Collection"><button className="buttonPrincipal">Collection</button></NavLink>
           </Nav.Item>
               </td>
               <td>
           <Nav.Item>
-            <NavLink to="/Kitchen"><button>Kitchen</button></NavLink>
+            <NavLink to="/Kitchen"><button className="buttonPrincipal">Kitchen</button></NavLink>
           </Nav.Item>
               </td>
           </tr>
