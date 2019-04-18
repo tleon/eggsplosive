@@ -4,6 +4,8 @@ import './Player.css';
 class Player extends Component {
   constructor(props) {
     super(props)
+    this.x = 50;
+    this.y = 80;
     this.state = {
       x: 50,
       y: 80,
@@ -12,24 +14,37 @@ class Player extends Component {
 
   componentDidMount() {
     document.addEventListener('keydown', this.move, false);
+    this.refresh = setInterval(this.refreshRender, 40)
   }
 
-  move=event =>{
+  refreshRender = () => {
+    this.setState({
+      x: this.x,
+      y: this.y,
+    })
+  }
+
+  move = (event) => {
+    // Move left
     if (event.keyCode === 37) {
-      let { x } = this.state
-      x -= 10
-      this.setState({ x })
-      console.log(this.state.x)
+      this.x -= 10;
     }
-    if (event.keyCode === 39) ; 
+    // Move right
+    if (event.keyCode === 39) {
+      this.x += 10;
+    }
   }
 
   render() {
+    const { x, y } = this.state;
     return (
-      <div className="Player">
-
-
-      </div>
+      <div
+      className="Player"
+      style={{
+        top: `${y}%`,
+        left: `${x}%`
+      }}
+      />
     );
   }
 }
