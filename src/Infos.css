@@ -1,0 +1,9 @@
+.Infos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/infos.jpg') no-repeat fixed bottom center;
+  background-size: 23%;
+  min-height: 100vh;
+  min-width: 100vh;
+}
