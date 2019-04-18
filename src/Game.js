@@ -14,7 +14,7 @@ class Game extends Component {
     this.collectables = ["egg", "milk", "chocolate"];
     this.badCollectables = ["bomb"];
     this.playerX = 50;
-    this.playerY = 80;
+    this.playerY = 70;
     this.state = {
       collectables: [],
       badCollectables: [],
@@ -109,7 +109,7 @@ class Game extends Component {
     const { collectables, badCollectables, eggs, milk, chocolates } = this.state;
     return (
       <div className="Game">
-        {
+        { 
           collectables.map((collectable, index) => (
             collectable !== "" ?
               <Collectable
@@ -135,7 +135,7 @@ class Game extends Component {
               : null
           ))
         }
-        <Player getPlayerPos={this.getPlayerPos} />
+        <Player getPlayerPos={this.getPlayerPos} /> 
         <Infos eggs={eggs} milk={milk} chocolates={chocolates} />
         <Obstacles />
       </div>
