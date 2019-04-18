@@ -1,0 +1,9 @@
+.Game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/fond.jpg') no-repeat fixed top center;
+  background-size: 100% 80%;
+  min-height: 100vh;
+  min-width: 100vh;
+}

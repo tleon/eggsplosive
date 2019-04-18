@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import Home from './Home';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './Home';
 import Collection from './Collection';
 import Kitchen from './Kitchen';
 import Game from './Game';
