@@ -1,0 +1,16 @@
+.Background {
+    text-align: center;
+    background: url('./assets/BackgroundKitchen.jpg') no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+  }
+
+.cauldron {
+    height: 40%;
+    width: 40%;
+    margin-top: 80px;    
+}
