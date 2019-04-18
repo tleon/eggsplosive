@@ -6,7 +6,7 @@ class Collectable extends Component {
     super(props);
     // Generate random position
     const pos = Math.floor(Math.random() * 10);
-    this.obstacleFalling = setInterval(() => this.fall(), 100)
+    this.obstacleFalling = setInterval(() => this.fall(), 150)
     this.state = {
       posX: pos*10,
       posY: -10,
@@ -25,8 +25,8 @@ class Collectable extends Component {
       const { destroyCollectable, index } = this.props;
       destroyCollectable(index);
     }
-    const { getItemPos, type } = this.props;
-    getItemPos(posX, posY, type);
+    const { getItemPos, type, index } = this.props;
+    getItemPos(posX, posY, type, index);
   }
 
   render() {

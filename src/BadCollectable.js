@@ -24,8 +24,8 @@ class BadCollectable extends Component {
       const { destroyBadCollectable, index } = this.props;
       destroyBadCollectable(index);
     }
-    const { getItemPos, type } = this.props;
-    getItemPos(posX, posY, type);
+    const { getItemPos, type, index } = this.props;
+    getItemPos(posX, posY, type, index);
   }
 
   render() {

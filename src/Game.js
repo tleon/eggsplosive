@@ -4,6 +4,7 @@ import Collectable from './Collectable';
 import BadCollectable from './BadCollectable';
 import Infos from './Infos';
 import Obstacles from './Obstacles';
+import GameOver from './GameOver';
 import './Game.css';
 
 class Game extends Component {
@@ -14,8 +15,9 @@ class Game extends Component {
     this.collectables = ["egg", "milk", "chocolate"];
     this.badCollectables = ["bomb"];
     this.playerX = 50;
-    this.playerY = 80;
+    this.playerY = 70;
     this.state = {
+      gameOver: false,
       collectables: [],
       badCollectables: [],
       eggs: 0,
@@ -36,9 +38,12 @@ class Game extends Component {
       , 5000);
   }
 
-  componentWillUnmount() {
+  stopGame() {
     clearInterval(this.collectablesSpawning);
     clearInterval(this.badCollectablesSpawning);
+    clearInterval(this.difficultyIncreasing);
+    // WRITE SOMETHING TO STOCK VALUES HERE :-)
+    // const { eggs, chocolates, milk } = this.state;
   }
 
   increaseDifficulty() {
@@ -56,26 +61,31 @@ class Game extends Component {
     this.playerY = y;
   }
 
-  getItemPos = (x, y, type) => {
+  getItemPos = (x, y, type, index) => {
     if (this.playerX === x && this.playerY === y) {
       switch (type) {
         case 'egg': {
           const { eggs } = this.state;
           this.setState({ eggs: eggs + 1 })
+          this.destroyCollectable(index)
           break;
         }
         case 'milk': {
           const { milk } = this.state;
           this.setState({ milk: milk + 1 })
+          this.destroyCollectable(index)
           break;
         }
         case 'chocolate': {
           const { chocolates } = this.state;
           this.setState({ chocolates: chocolates + 1 })
+          this.destroyCollectable(index)
           break;
         }
         default: {
           this.setState({ gameOver: true });
+          this.stopGame();
+          break;
         }
       }
     }
@@ -106,9 +116,15 @@ class Game extends Component {
   }
 
   render() {
-    const { collectables, badCollectables, eggs, milk, chocolates } = this.state;
+    const { collectables, badCollectables, eggs, milk, chocolates, gameOver } = this.state;
     return (
       <div className="Game">
+        {
+          gameOver 
+          ?
+          <GameOver />
+          : null
+        }
         {
           collectables.map((collectable, index) => (
             collectable !== "" ?
@@ -136,7 +152,7 @@ class Game extends Component {
           ))
         }
         <Player getPlayerPos={this.getPlayerPos} />
-        <Infos eggs={eggs} milk={milk} chocolates={chocolates} />
+        <Infos eggs={eggs} milk={milk} chocolates={chocolates}/>
         <Obstacles />
       </div>
     );
