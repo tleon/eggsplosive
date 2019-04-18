@@ -5,11 +5,6 @@ import { Tabs, Tab } from 'react-bootstrap-tabs';
 
 
 class Collection extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-
   render() {
 
     return (
