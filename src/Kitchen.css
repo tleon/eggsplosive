@@ -1,16 +1,165 @@
 .Background {
-    text-align: center;
-    background: url('./assets/BackgroundKitchen.jpg') no-repeat;
-    background-size: 100% 100%;
-    min-height: 100vh;
-    min-width: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-  }
+  text-align: center;
+  background: url('./assets/BackgroundKitchen.jpg') no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
 
-.cauldron {
-    height: 40%;
-    width: 40%;
-    margin-top: 80px;    
+h1{
+    font-family: "FontEaster";
+    font-size: 450%;
+    position: absolute;
+    padding-bottom: 450px;
+}
+
+.Chaudron{
+  height: 70%;
+  width: 35%;
+  justify-content: center;
+  margin-top: 110px; 
+  position: absolute 
+}
+
+.Placement{
+margin-right: 1000px;
+}
+
+.buttonKitchen1{
+display: flex;
+color: Black !important;
+background-color:grey;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen1:hover{
+background-color: white;
+}
+
+.buttonKitchen2{
+display: flex;
+color: Black !important;
+background-color: rgb(236, 240, 236);
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen2:hover{
+background-color: white;
+}
+
+.buttonKitchen3{
+display: flex;
+color:Black !important;
+background-color: #5ceb4a;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen3:hover{
+background-color: white;
+}
+
+.buttonKitchen4{
+display: flex;
+color:Black !important;
+background-color: #01c8fa;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen4:hover{
+background-color: white;
+}
+
+.buttonKitchen5{
+display: flex;
+color:Black !important;
+background-color: #7400f8;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen5:hover{
+background-color: white;
+}
+
+.buttonKitchen6{
+display: flex;
+color:Black !important;
+background-color: #ff009d;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen6:hover{
+background-color: white;
+}
+
+.buttonKitchen7{
+display: flex;
+color:Black !important;
+background-color: #f70000;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen7:hover{
+background-color: white;
+}
+
+.buttonKitchen8{
+display: flex;
+color:Black !important;
+background-color: #eeff00;
+padding: 1.3rem;
+font-weight: 900 !important;
+font-size: 30px !important;
+letter-spacing: 0.1em;
+border-radius: 10%;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.buttonKitchen8:hover{
+background-color: white;
 }
