@@ -42,8 +42,20 @@ class Game extends Component {
     clearInterval(this.collectablesSpawning);
     clearInterval(this.badCollectablesSpawning);
     clearInterval(this.difficultyIncreasing);
-    // WRITE SOMETHING TO STOCK VALUES HERE :-)
-    // const { eggs, chocolates, milk } = this.state;
+    const { eggs, chocolates, milk } = this.state;
+    if (!localStorage.getItem("eggs") && !localStorage.getItem("chocolates") && !localStorage.getItem("milk")){
+      localStorage.setItem("eggs", "0");
+      localStorage.setItem("chocolates", "0");
+      localStorage.setItem("milk", "0");
+    }
+    if (localStorage.getItem("eggs") && localStorage.getItem("chocolates") && localStorage.getItem("milk")) {
+      let stockedEggs = parseInt(localStorage.getItem("eggs")) + eggs;
+      localStorage.setItem("eggs", stockedEggs.toString());
+      let stockedChocolates = parseInt(localStorage.getItem("chocolates")) + chocolates;
+      localStorage.setItem("chocolates", stockedChocolates.toString());
+      let stockedMilk = parseInt(localStorage.getItem("milk")) + milk;
+      localStorage.setItem("milk", stockedMilk.toString());
+    }
   }
 
   increaseDifficulty() {
@@ -120,10 +132,10 @@ class Game extends Component {
     return (
       <div className="Game">
         {
-          gameOver 
-          ?
-          <GameOver />
-          : null
+          gameOver
+            ?
+            <GameOver />
+            : null
         }
         {
           collectables.map((collectable, index) => (
@@ -152,7 +164,7 @@ class Game extends Component {
           ))
         }
         <Player getPlayerPos={this.getPlayerPos} />
-        <Infos eggs={eggs} milk={milk} chocolates={chocolates}/>
+        <Infos eggs={eggs} milk={milk} chocolates={chocolates} />
         <Obstacles />
       </div>
     );
