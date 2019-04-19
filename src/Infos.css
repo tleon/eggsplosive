@@ -14,13 +14,14 @@
     font-size: 2em;
     position: fixed;
     opacity: 0.9;
-    width: 72px;
-    height: 72px;
-    
+    width: 20%;;
+    height: 20%;
+    display : flex    
     }
 
 .infoImage{
-    width: 1em;
-    height: 1em;
+    display : flex;
+    width: 2em;
+    height: 2em;
    
 }
