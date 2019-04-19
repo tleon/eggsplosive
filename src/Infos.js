@@ -15,7 +15,7 @@ class Infos extends Component {
           <div className='textInfo'><img className='infoImage' src={milkimg} alt='milk'/>{milk}</div>
           <div className='textInfo'><img className='infoImage' src={eggsimg} alt='eggs'/>{eggs}</div>
           <div className='textInfo'><img className='infoImage' src={chocolatesimg} alt='chocolate'/>{chocolates}</div>
-          <div className='textInfo'><img className='infoImage' src={character} alt='RogerRabbit'/>Rabbit</div>
+          
       </div>
       
     );
