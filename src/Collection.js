@@ -13,19 +13,9 @@ class Collection extends Component {
           <h1>Collection</h1>
         </div>
 
-        <Tabs onSelect={(index, label) => console.log(label + ' selected')}>
-          <Tab label="Eggs">
-            <div className="row" style={{ marginTop: "50px" }}>
+    
               <EggCollection></EggCollection>
-            </div>
-
-          </Tab>
-          <Tab label="Characters">
-            <div className="row" style={{ marginTop: "50px" }}>
-              <CharactersCollection></CharactersCollection>
-            </div>
-          </Tab>
-        </Tabs>
+        <CharactersCollection></CharactersCollection>
 
       </div>
     );

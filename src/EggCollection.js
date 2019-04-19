@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { MDBCol, MDBCardBody, MDBCardTitle, MDBCardText, MDBCard, MDBCardImage } from "mdbreact";
+import { Col, CardBody, CardTitle, CardText, Card, CardImage, Row, Container } from "reactstrap";
 
 
 class EggCollection extends Component {
@@ -34,26 +34,27 @@ class EggCollection extends Component {
     const { eggs } = this.state;
     const { border } = this.state;
     return (
-      <div className="App container-fluid">
-        <div className="row">
+      <div className="App">
+  
+        <Container>
+          
           {eggs.map((egg, index) =>
-            <div className="col-3">
-              <MDBCol style={{ marginBottom: "10px" }}>
-                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
-                  <div className="row d-flex justify-content-center">
-                    <MDBCardImage style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
-                  </div>
-                  <MDBCardBody>
-                    <MDBCardTitle key={`name-${index}`}>{egg.name}</MDBCardTitle>
-                    <MDBCardText>
+              <Col md="3" lg="3" style={{ marginBottom: "10px" }}>
+                <Card style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
+                  <Row>
+                    <img style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
+                    </Row>
+                  <CardBody>
+                    <CardTitle key={`name-${index}`}>{egg.name}</CardTitle>
+                    <CardText>
                       {egg.power}
-                    </MDBCardText>
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBCol>
-            </div>
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
           )}
-        </div>
+     
+        </Container>
 
       </div>
     );
