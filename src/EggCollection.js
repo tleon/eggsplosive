@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Col, CardBody, CardTitle, CardText, Card, CardImage, Row, Container } from "reactstrap";
+import { Col, CardBody, CardTitle, CardText, Card, CardImage, Row, Container } from "react-bootstrap";
+import bootstrap from 'bootstrap/dist/css/bootstrap-grid.css';
 
 
 class EggCollection extends Component {
@@ -37,23 +38,25 @@ class EggCollection extends Component {
       <div className="App">
   
         <Container>
-          
+          <Row>
+
           {eggs.map((egg, index) =>
-              <Col md="3" lg="3" style={{ marginBottom: "10px" }}>
-                <Card style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
-                  <Row>
-                    <img style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
-                    </Row>
-                  <CardBody>
-                    <CardTitle key={`name-${index}`}>{egg.name}</CardTitle>
-                    <CardText>
+            <Col lg="3">
+              
+              <Card style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
+                    <Card.Img style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
+                  <Card.Body>
+                    <Card.Title key={`name-${index}`}>{egg.name}</Card.Title>
+                    <Card.Text>
                       {egg.power}
-                    </CardText>
-                  </CardBody>
+                    </Card.Text>
+                  </Card.Body>
                 </Card>
-              </Col>
-          )}
+           
+           </Col>
+           )}
      
+           </Row>
         </Container>
 
       </div>
