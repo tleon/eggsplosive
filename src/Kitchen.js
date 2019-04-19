@@ -100,7 +100,7 @@ class Kitchen extends Component {
   render() {
     return (
       <div className="Background">
-        <h1>Kitchen</h1>
+        <h1 className="h1-kitchen">Kitchen</h1>
         <img className="Chaudron" src="http://www.pngmart.com/files/7/Cauldron-PNG-Photos.png" alt='cauldron'/> 
         <div className="Placement">
         <button className="buttonKitchen1">Junk</button>
