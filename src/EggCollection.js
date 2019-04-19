@@ -56,7 +56,7 @@ class EggCollection extends Component {
                   <MDBCardBody>
                     <MDBCardTitle key={`name-${index}`}>{egg.name}</MDBCardTitle>
                     <MDBCardText>
-                      {egg.power}
+                      Rarity : {egg.rarity}
                     </MDBCardText>
                   </MDBCardBody>
                 </MDBCard>
