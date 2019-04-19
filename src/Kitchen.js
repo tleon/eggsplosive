@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { NavLink } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 import './Kitchen.css';
 import milkkitchen from './assets/milk.png'
 import Chocolatekitchen from './assets/chocolate.png'
@@ -163,6 +165,9 @@ class Kitchen extends Component {
           <button className="ChocolateKitchen"><img className="Chocolatekitchen" src={Chocolatekitchen}/> {chocolates}</button>
           <button className="EggKitchen"><img className="Eggkitchen" src={Eggkitchen}/> {eggs}</button>
         </div>
+        <Nav.Item>
+            <NavLink to="/"><button className="button-home" style={{position :'absolute', top : '0', right : '0'}}>Back</button></NavLink>
+          </Nav.Item>
       </div>
     );
   }

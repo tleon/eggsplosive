@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import milkimg from './assets/milk.png';
 import eggsimg from './assets/egg.png';
 import chocolatesimg from './assets/chocolate.png';
-import character from './assets/RogerRabbit.jpg';
 import './Infos.css';
-
+//import coeur from './assets/coeur.png';
 
 class Infos extends Component {
 
@@ -15,9 +14,8 @@ class Infos extends Component {
           <div className='textInfo'><img className='infoImage' src={milkimg} alt='milk'/>{milk}</div>
           <div className='textInfo'><img className='infoImage' src={eggsimg} alt='eggs'/>{eggs}</div>
           <div className='textInfo'><img className='infoImage' src={chocolatesimg} alt='chocolate'/>{chocolates}</div>
-          
-      </div>
-      
+          {/*<div className='textInfo'><img className='infoImage' src={coeur} alt='chocolate'/>{chocolates}</div>*/}          
+      </div>      
     );
   }
 }
