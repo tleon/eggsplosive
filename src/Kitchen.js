@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './Kitchen.css';
+import milkkitchen from './assets/milk.png'
+import Chocolatekitchen from './assets/chocolate.png'
+import Eggkitchen from './assets/egg.png'
 
 class Kitchen extends Component {
   constructor(props) {
@@ -154,9 +157,11 @@ class Kitchen extends Component {
           <button className="buttonKitchen8" onClick={() => this.buyEgg("ascended")}>Ascended</button>
           <span>{this.prices.ascended.eggs}{this.prices.ascended.chocolates}{this.prices.ascended.milk}</span>
         </div>
-        <div>Milk : {eggs}</div>
-        <div>Chocolate : {chocolates}</div>
-        <div>Egg : {milk}</div>
+        <div> 
+          <button className="MilkKitchen"><img className="Milkkkk" src={milkkitchen}/> {milk}</button>
+          <button className="ChocolateKitchen"><img className="Chocolatekitchen" src={Chocolatekitchen}/> {chocolates}</button>
+          <button className="EggKitchen"><img className="Eggkitchen" src={Eggkitchen}/> {eggs}</button>
+        </div>
       </div>
     );
   }
