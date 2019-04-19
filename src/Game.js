@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Player from './Player';
 import Collectable from './Collectable';
 import BadCollectable from './BadCollectable';
+import Bunny from './Bunny';
 import Infos from './Infos';
 import Obstacles from './Obstacles';
 import GameOver from './GameOver';
@@ -10,20 +11,29 @@ import './Game.css';
 class Game extends Component {
   constructor(props) {
     super(props);
+    this.easterEgg = this.easterEgg.bind(this);
     this.obstacleSpeedGeneration = 1000;
     this.badObstacleSpeedGeneration = 1000;
     this.collectables = ["egg", "milk", "chocolate"];
     this.badCollectables = ["bomb"];
+    this.bunnies = ["bunny"];
     this.playerX = 50;
     this.playerY = 70;
+    this.easterEggWord = "";
     this.state = {
       gameOver: false,
       collectables: [],
       badCollectables: [],
+      bunnies: [],
       eggs: 0,
       chocolates: 0,
       milk: 0,
+      activeEasterEgg: false,
     }
+  }
+
+  componentWillMount() {
+    document.addEventListener('keydown', this.easterEgg, false)
   }
 
   componentDidMount() {
@@ -36,6 +46,34 @@ class Game extends Component {
     this.difficultyIncreasing = setInterval(
       () => this.increaseDifficulty()
       , 5000);
+    }
+    
+    easterEgg(event) {
+      if (event.keyCode === 80) {
+        this.easterEggWord += "p"
+    }
+    if (this.easterEggWord === "p" && event.keyCode === 65) {
+      this.easterEggWord += "a"
+    }
+    if (this.easterEggWord === "pa" && event.keyCode === 81) {
+      this.easterEggWord += "q"
+    }
+    if (this.easterEggWord === "paq" && event.keyCode === 85) {
+      this.easterEggWord += "u"
+    }
+    if (this.easterEggWord === "paqu" && event.keyCode === 69) {
+      this.easterEggWord += "e"
+    }
+    if (this.easterEggWord === "paque" && event.keyCode === 83) {
+      this.easterEggWord += "s"
+    }
+    if (this.easterEggWord === "paques") {
+        this.bunniesSpawning = setInterval(
+          () => this.generateBunnies()
+          , 500);
+          this.easterEggWord = "";
+        this.setState({ activeEasterEgg: true })
+      }
   }
 
   stopGame() {
@@ -43,7 +81,7 @@ class Game extends Component {
     clearInterval(this.badCollectablesSpawning);
     clearInterval(this.difficultyIncreasing);
     const { eggs, chocolates, milk } = this.state;
-    if (!localStorage.getItem("eggs") && !localStorage.getItem("chocolates") && !localStorage.getItem("milk")){
+    if (!localStorage.getItem("eggs") && !localStorage.getItem("chocolates") && !localStorage.getItem("milk")) {
       localStorage.setItem("eggs", "0");
       localStorage.setItem("chocolates", "0");
       localStorage.setItem("milk", "0");
@@ -103,6 +141,13 @@ class Game extends Component {
     }
   }
 
+  generateBunnies() {
+    const { bunnies } = this.state;
+    bunnies.push("bunny");
+    this.setState({ bunnies });
+    
+  }
+
   generateCollectable() {
     const { collectables } = this.state;
     collectables.push(this.collectables[Math.floor(Math.random() * this.collectables.length)]);
@@ -121,6 +166,12 @@ class Game extends Component {
     this.setState({ collectables });
   }
 
+  destroyBunny = (index) => {
+    const { bunnies } = this.state;
+    bunnies[index] = "";
+    this.setState({ bunnies });
+  }
+
   destroyBadCollectable = (index) => {
     const { badCollectables } = this.state;
     badCollectables[index] = "";
@@ -128,7 +179,7 @@ class Game extends Component {
   }
 
   render() {
-    const { collectables, badCollectables, eggs, milk, chocolates, gameOver } = this.state;
+    const { collectables, badCollectables, bunnies, eggs, milk, chocolates, gameOver } = this.state;
     return (
       <div className="Game">
         {
@@ -159,6 +210,18 @@ class Game extends Component {
                 key={`badCollectable-${index}`}
                 destroyBadCollectable={this.destroyBadCollectable}
                 getItemPos={this.getItemPos}
+              />
+              : null
+          ))
+        }
+        {
+          bunnies.map((bunny, index) => (
+            bunny !== "" ?
+              <Bunny
+                type={bunny}
+                index={index}
+                key={`bunnyId-${index}`}
+                destroyBunny={this.destroyBunny}
               />
               : null
           ))
