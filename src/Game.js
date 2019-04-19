@@ -73,7 +73,24 @@ class Game extends Component {
           , 500);
           this.easterEggWord = "";
         this.setState({ activeEasterEgg: true })
+
       }
+  }
+
+
+  sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+      this.sound.play();
+    }
+    this.stop = function(){
+      this.sound.pause();
+    }
   }
 
   stopGame() {
@@ -112,7 +129,7 @@ class Game extends Component {
   }
 
   getItemPos = (x, y, type, index) => {
-    if (this.playerX === x && this.playerY === y) {
+    if (this.playerX === x && this.playerY === y - 15) {
       switch (type) {
         case 'egg': {
           const { eggs } = this.state;
@@ -145,6 +162,8 @@ class Game extends Component {
     const { bunnies } = this.state;
     bunnies.push("bunny");
     this.setState({ bunnies });
+    const mySound = new this.sound("bahhhhh.mp3");
+    mySound.play();
     
   }
 
