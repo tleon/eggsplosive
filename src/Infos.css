@@ -1,7 +1,6 @@
 .Infos{
-    margin-top: 22%; 
-    padding : 0.2em;
-    padding-bottom : 1.5em;
+    
+    margin-top: 22%;     
     color:rgb(255, 255, 255);
     font-family: 'Press Start 2P', cursive;
     font-weight: bolder; 
@@ -14,13 +13,25 @@
     font-size: 2em;
     position: fixed;
     opacity: 0.9;
-    width: 72px;
-    height: 72px;
-    
+    width: 80%;
+    height: 10%;
+    display :flex;
+    justify-content: space-around;
     }
 
-.infoImage{
+.infoImage{   
     width: 1em;
     height: 1em;
-   
+    margin-right: 1%;
+    margin-top: 0.2em;       
+   }
+
+.textInfo{
+    margin-left: 6%;
+    margin-right: 0%;
+    padding-top: 0.7%;
+    display :flex;   
+    
 }
+
+
