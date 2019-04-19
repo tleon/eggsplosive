@@ -42,9 +42,10 @@ class EggCollection extends Component {
 
   render() {
     const { eggs, border } = this.state;
-    
+    console.log(this.getMyEggs().length)
     return (
       <div className="App container-fluid">
+        <h2>{this.getMyEggs().length - 1} / 100</h2>
         <div className="row">
           {eggs.map((egg, index) =>
             <div key={index} className="col-3">
