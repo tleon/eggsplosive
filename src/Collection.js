@@ -6,10 +6,7 @@ import './Collections.css';
 
 
 class Collection extends Component {
-  constructor(props) {
-    super(props)
 
-  }
 
   render() {
 

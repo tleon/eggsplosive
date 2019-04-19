@@ -36,20 +36,20 @@ class EggCollection extends Component {
 
   isInMyCollection = (egg) => {
     const myEggsId = this.getMyEggs();
-    return myEggsId.indexOf(egg.$loki + "") == -1;
+    return myEggsId.indexOf(egg.$loki + "") === -1;
   }
   
 
   render() {
     const { eggs, border } = this.state;
-    let opacity = "";
+    
     return (
       <div className="App container-fluid">
         <div className="row">
           {eggs.map((egg, index) =>
             <div key={index} className="col-3">
               <MDBCol style={{ marginBottom: "10px" }}>
-                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}`, filter: `grayscale(${this.isInMyCollection(egg) ? opacity = '1' : opacity = '0'})` }}>
+                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}`, filter: `grayscale(${this.isInMyCollection(egg) ? '1' : '0'})` }}>
                   <div className="row d-flex justify-content-center">
                     <MDBCardImage style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
                   </div>

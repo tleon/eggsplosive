@@ -161,9 +161,9 @@ class Kitchen extends Component {
           <span className="Baaaa">Price = {this.prices.ascended.eggs} X {this.prices.ascended.chocolates} X {this.prices.ascended.milk}</span>
         </div>
         <div> 
-          <button className="MilkKitchen"><img className="Milkkkk" src={milkkitchen}/> {milk}</button>
-          <button className="ChocolateKitchen"><img className="Chocolatekitchen" src={Chocolatekitchen}/> {chocolates}</button>
-          <button className="EggKitchen"><img className="Eggkitchen" src={Eggkitchen}/> {eggs}</button>
+          <button className="MilkKitchen"><img className="Milkkkk" alt="coucou" src={milkkitchen}/> {milk}</button>
+          <button className="ChocolateKitchen"><img className="Chocolatekitchen" alt="coucou" src={Chocolatekitchen}/> {chocolates}</button>
+          <button className="EggKitchen"><img className="Eggkitchen" src={Eggkitchen} alt="coucou"/> {eggs}</button>
         </div>
         <Nav.Item>
             <NavLink to="/"><button className="button-home" style={{position :'absolute', top : '0', right : '0'}}>Back</button></NavLink>

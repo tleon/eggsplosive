@@ -27,7 +27,7 @@ class Bunny extends Component {
   }
 
   render() {
-    const { type } = this.props;
+   
     const { posX, posY } = this.state;
     return (
       <div
