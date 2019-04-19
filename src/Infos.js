@@ -3,7 +3,6 @@ import milkimg from './assets/milk.png';
 import eggsimg from './assets/egg.png';
 import chocolatesimg from './assets/chocolate.png';
 import character from './assets/RogerRabbit.jpg';
-import { Container, Row, Col } from 'reactstrap';
 import './Infos.css';
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'reactstrap';
 import './GameOver.css';
 
 class GameOver extends Component {
@@ -18,7 +17,7 @@ class GameOver extends Component {
                         Back to menu
                       </button>
                   </Link>
-             </p> 
+              </p> 
           </div>
         </div>
       </div>
