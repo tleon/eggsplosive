@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'reactstrap';
 import './GameOver.css';
 
 class GameOver extends Component {
@@ -11,23 +10,14 @@ class GameOver extends Component {
           <div className="modal-body">
             <p>
               <h1>Game Over !</h1>
-              <Container>
-                <Row>
-                  <Col sm="12" md={{ size: 6, offset: 3 }}>
-                    <Link exact to="/" >
+                  <Link exact to="/" >
                       <button
-                        className="button button-home"
-                        type="button"
-                      >
+                        className="gameOver"
+                        type="button">
                         Back to menu
                       </button>
-                    </Link>
-                  </Col>
-                </Row>
-              </Container>
-
-
-            </p>
+                  </Link>
+              </p> 
           </div>
         </div>
       </div>

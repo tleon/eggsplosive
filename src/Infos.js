@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+import milkimg from './assets/milk.png';
+import eggsimg from './assets/egg.png';
+import chocolatesimg from './assets/chocolate.png';
+import character from './assets/RogerRabbit.jpg';
 import './Infos.css';
+
 
 class Infos extends Component {
 
@@ -7,10 +12,12 @@ class Infos extends Component {
     const { milk, eggs, chocolates } = this.props;
     return (
       <div className="Infos">
-        <span>Milk : {milk}</span>
-        <span>Eggs : {eggs}</span>
-        <span>Chocolates : {chocolates}</span>
+          <div className='textInfo'><img className='infoImage' src={milkimg} alt='milk'/>{milk}</div>
+          <div className='textInfo'><img className='infoImage' src={eggsimg} alt='eggs'/>{eggs}</div>
+          <div className='textInfo'><img className='infoImage' src={chocolatesimg} alt='chocolate'/>{chocolates}</div>
+          <div className='textInfo'><img className='infoImage' src={character} alt='RogerRabbit'/>Rabbit</div>
       </div>
+      
     );
   }
 }

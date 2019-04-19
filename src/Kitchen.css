@@ -163,3 +163,129 @@ margin-bottom: 10px;
 .buttonKitchen8:hover{
 background-color: white;
 }
+
+.Chaudron{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: img linear infinite;
+  transform-origin: 60%;
+  -webkit-animation: img 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes img{
+  0% {
+      transform:  rotate(0deg) ;
+  }
+  10% {
+      transform:  rotate(-5deg) ;
+  }
+  20% {
+      transform:  rotate(5deg) ;
+  }
+  30% {
+      transform:  rotate(-5deg) ;
+  }
+  40% {
+      transform:  rotate(5deg) ;
+  }
+  50% {
+  transform:  rotate(0deg) ;
+  }
+  100%{
+      transform:  rotate(0deg) ;
+  }
+  }
+  
+  @-webkit-keyframes img{
+  0% {
+      -webkit-transform:  rotate(0deg) ;
+  }
+  10% {
+      -webkit-transform:  rotate(-5deg) ;
+  }
+  20% {
+      -webkit-transform:  rotate(5deg) ;
+  }
+  30% {
+      -webkit-transform:  rotate(-5deg) ;
+  }
+  40% {
+      -webkit-transform:  rotate(5deg) ;
+  }
+  41% {
+      -webkit-transform:  rotate(0deg) ;
+  }
+  100%{
+      -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+.MilkKitchen{
+    display: flex;
+    color: Black !important;
+    background-color:grey;
+    padding: 1.3rem;
+    font-weight: 900 !important;
+    font-size: 30px !important;
+    letter-spacing: 0.1em;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    }
+    
+.MilkKitchen:hover{
+    background-color: white;
+    }
+
+
+.ChocolateKitchen{
+  display: flex;
+  color: Black !important;
+  background-color:grey;
+  padding: 1.3rem;
+  font-weight: 900 !important;
+  font-size: 30px !important;
+  letter-spacing: 0.1em;
+  border-radius: 10%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  }
+  
+.ChocolateKitchen:hover{
+  background-color: white;
+  }
+
+.EggKitchen{
+    display: flex;
+    color: Black !important;
+    background-color:grey;
+    padding: 1.3rem;
+    font-weight: 900 !important;
+    font-size: 30px !important;
+    letter-spacing: 0.1em;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    }
+    
+  .EggKitchen:hover{
+    background-color: white;
+    }
+
+.Milkkkk{
+  width: 2em;
+  height: 2em;
+}
+
+.Chocolatekitchen{
+  width: 2em;
+  height: 2em;
+}
+
+.Eggkitchen{
+  width: 2em;
+  height: 2em;
+}
