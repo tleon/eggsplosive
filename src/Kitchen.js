@@ -79,7 +79,7 @@ class Kitchen extends Component {
   buyEgg = (eggRarity) => {
     const { eggs, chocolates, milk, allEggs } = this.state;
     // If enough money
-    if (eggs >= this.prices[eggRarity].eggs || chocolates >= this.prices[eggRarity].chocolates || milk >= this.prices[eggRarity].milk) {
+    if (eggs >= this.prices[eggRarity].eggs && chocolates >= this.prices[eggRarity].chocolates && milk >= this.prices[eggRarity].milk) {
       // Calculate money
       const newEggsValue = parseInt(localStorage.getItem("eggs")) - this.prices[eggRarity].eggs;
       const newChocolatesValue = parseInt(localStorage.getItem("chocolates")) - this.prices[eggRarity].chocolates;
@@ -114,6 +114,7 @@ class Kitchen extends Component {
       const newCollection = localStorage.getItem("collection") + " " + (eggId)
       localStorage.setItem("collection", newCollection)
     }
+
   }
 
   render() {
@@ -141,21 +142,21 @@ class Kitchen extends Component {
         <img className="Chaudron" src="http://www.pngmart.com/files/7/Cauldron-PNG-Photos.png" alt='cauldron'/> 
         <div className="Placement">
         <button className="buttonKitchen1" onClick={() => this.buyEgg("junk")}>Junk</button>
-          <span>{this.prices.junk.eggs}{this.prices.junk.chocolates}{this.prices.junk.milk}</span>
+          <span className="Baaaa">Price = {this.prices.junk.eggs} X {this.prices.junk.chocolates} X {this.prices.junk.milk}</span>
           <button className="buttonKitchen2" onClick={() => this.buyEgg("basic")}>Basic</button>
-          <span>{this.prices.basic.eggs}{this.prices.basic.chocolates}{this.prices.basic.milk}</span>
+          <span className="Baaaa">Price = {this.prices.basic.eggs} X {this.prices.basic.chocolates} X {this.prices.basic.milk}</span>
           <button className="buttonKitchen3" onClick={() => this.buyEgg("fine")}>Fine</button>
-          <span>{this.prices.fine.eggs}{this.prices.fine.chocolates}{this.prices.fine.milk}</span>
+          <span className="Baaaa">Price = {this.prices.fine.eggs} X {this.prices.fine.chocolates} X {this.prices.fine.milk}</span>
           <button className="buttonKitchen4" onClick={() => this.buyEgg("rare")}>Rare</button>
-          <span>{this.prices.rare.eggs}{this.prices.rare.chocolates}{this.prices.rare.milk}</span>
+          <span className="Baaaa">Price = {this.prices.rare.eggs} X {this.prices.rare.chocolates} X {this.prices.rare.milk}</span>
           <button className="buttonKitchen5" onClick={() => this.buyEgg("legendary")}>Legendary</button>
-          <span>{this.prices.legendary.eggs}{this.prices.legendary.chocolates}{this.prices.legendary.milk}</span>
+          <span className="Baaaa">Price = {this.prices.legendary.eggs} X {this.prices.legendary.chocolates} X {this.prices.legendary.milk}</span>
           <button className="buttonKitchen6" onClick={() => this.buyEgg("exotic")}>Exotic</button>
-          <span>{this.prices.exotic.eggs}{this.prices.exotic.chocolates}{this.prices.exotic.milk}</span>
+          <span className="Baaaa">Price = {this.prices.exotic.eggs} X {this.prices.exotic.chocolates} X {this.prices.exotic.milk}</span>
           <button className="buttonKitchen7" onClick={() => this.buyEgg("masterwork")}>Masterwork</button>
-          <span>{this.prices.masterwork.eggs}{this.prices.masterwork.chocolates}{this.prices.masterwork.milk}</span>
+          <span className="Baaaa">Price = {this.prices.masterwork.eggs} X {this.prices.masterwork.chocolates} X {this.prices.masterwork.milk}</span>
           <button className="buttonKitchen8" onClick={() => this.buyEgg("ascended")}>Ascended</button>
-          <span>{this.prices.ascended.eggs}{this.prices.ascended.chocolates}{this.prices.ascended.milk}</span>
+          <span className="Baaaa">Price = {this.prices.ascended.eggs} X {this.prices.ascended.chocolates} X {this.prices.ascended.milk}</span>
         </div>
         <div> 
           <button className="MilkKitchen"><img className="Milkkkk" src={milkkitchen}/> {milk}</button>
