@@ -97,6 +97,7 @@ class Game extends Component {
     clearInterval(this.collectablesSpawning);
     clearInterval(this.badCollectablesSpawning);
     clearInterval(this.difficultyIncreasing);
+    clearInterval(this.bunniesSpawning);
     const { eggs, chocolates, milk } = this.state;
     if (!localStorage.getItem("eggs") && !localStorage.getItem("chocolates") && !localStorage.getItem("milk")) {
       localStorage.setItem("eggs", "0");
