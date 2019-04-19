@@ -16,7 +16,7 @@ class GameOver extends Component {
                   <Col sm="12" md={{ size: 6, offset: 3 }}>
                     <Link exact to="/" >
                       <button
-                        className="button"
+                        className="button button-home"
                         type="button"
                       >
                         Back to menu
