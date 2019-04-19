@@ -20,6 +20,7 @@ class Game extends Component {
     this.playerX = 50;
     this.playerY = 70;
     this.easterEggWord = "";
+    this.bunniesCounter = 0;
     this.state = {
       gameOver: false,
       collectables: [],
@@ -46,11 +47,11 @@ class Game extends Component {
     this.difficultyIncreasing = setInterval(
       () => this.increaseDifficulty()
       , 5000);
-    }
-    
-    easterEgg(event) {
-      if (event.keyCode === 80) {
-        this.easterEggWord += "p"
+  }
+
+  easterEgg(event) {
+    if (event.keyCode === 80) {
+      this.easterEggWord += "p"
     }
     if (this.easterEggWord === "p" && event.keyCode === 65) {
       this.easterEggWord += "a"
@@ -68,13 +69,14 @@ class Game extends Component {
       this.easterEggWord += "s"
     }
     if (this.easterEggWord === "paques") {
-        this.bunniesSpawning = setInterval(
-          () => this.generateBunnies()
-          , 500);
-          this.easterEggWord = "";
-        this.setState({ activeEasterEgg: true })
+      this.bunniesCounter = 0;
+      this.bunniesSpawning = setInterval(
+        () => this.generateBunnies()
+        , 500);
+      this.easterEggWord = "";
+      this.setState({ activeEasterEgg: true })
 
-      }
+    }
   }
 
 
@@ -85,10 +87,10 @@ class Game extends Component {
     this.sound.setAttribute("controls", "none");
     this.sound.style.display = "none";
     document.body.appendChild(this.sound);
-    this.play = function(){
+    this.play = function () {
       this.sound.play();
     }
-    this.stop = function(){
+    this.stop = function () {
       this.sound.pause();
     }
   }
@@ -160,12 +162,16 @@ class Game extends Component {
   }
 
   generateBunnies() {
+    this.bunniesCounter += 1
+    if (this.bunniesCounter === 10) {
+      clearInterval(this.bunniesSpawning)
+    }
     const { bunnies } = this.state;
     bunnies.push("bunny");
     this.setState({ bunnies });
     const mySound = new this.sound("bahhhhh.mp3");
     mySound.play();
-    
+
   }
 
   generateCollectable() {
