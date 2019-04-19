@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Collectable.css';
 
 class BadCollectable extends Component {
   constructor(props) {
