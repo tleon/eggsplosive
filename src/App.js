@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename="src">
+        <BrowserRouter basename="public">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Collection" component={Collection} />
