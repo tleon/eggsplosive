@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/eggsplosive/static/media/egg.16277a7e.png"
   },
   {
-    "revision": "02d53dda747ce7a7f3bb",
+    "revision": "a456c3198e2d3443252d",
     "url": "/eggsplosive/static/css/main.eddecf3d.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/eggsplosive/static/media/chocolate.9ad77424.png"
   },
   {
-    "revision": "02d53dda747ce7a7f3bb",
-    "url": "/eggsplosive/static/js/main.5cb41dc9.chunk.js"
+    "revision": "a456c3198e2d3443252d",
+    "url": "/eggsplosive/static/js/main.5b7ff0ae.chunk.js"
   },
   {
     "revision": "d983818ac8817d87bc2f30f7033ef10a",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/eggsplosive/static/media/BackgroundGame.67e7e17c.png"
   },
   {
-    "revision": "f8fb6b86709ed00cd7b68921b2a633e1",
+    "revision": "c9e35787037371ea97278ee273683e64",
     "url": "/eggsplosive/index.html"
   }
 ];
