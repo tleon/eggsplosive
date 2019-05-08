@@ -1,0 +1,20 @@
+{
+  "main.css": "/eggsplosive/static/css/main.eddecf3d.chunk.css",
+  "main.js": "/eggsplosive/static/js/main.5cb41dc9.chunk.js",
+  "main.js.map": "/eggsplosive/static/js/main.5cb41dc9.chunk.js.map",
+  "runtime~main.js": "/eggsplosive/static/js/runtime~main.bc7c03d5.js",
+  "runtime~main.js.map": "/eggsplosive/static/js/runtime~main.bc7c03d5.js.map",
+  "static/js/2.df17141f.chunk.js": "/eggsplosive/static/js/2.df17141f.chunk.js",
+  "static/js/2.df17141f.chunk.js.map": "/eggsplosive/static/js/2.df17141f.chunk.js.map",
+  "index.html": "/eggsplosive/index.html",
+  "precache-manifest.1d44e956ab54ecfeb0fa7e15d9c11376.js": "/eggsplosive/precache-manifest.1d44e956ab54ecfeb0fa7e15d9c11376.js",
+  "service-worker.js": "/eggsplosive/service-worker.js",
+  "static/css/main.eddecf3d.chunk.css.map": "/eggsplosive/static/css/main.eddecf3d.chunk.css.map",
+  "static/media/Game.css": "/eggsplosive/static/media/BackgroundGame.67e7e17c.png",
+  "static/media/Kitchen.css": "/eggsplosive/static/media/BackgroundKitchen.960067bb.jpg",
+  "static/media/GameOver.css": "/eggsplosive/static/media/EasterFont.d983818a.ttf",
+  "static/media/Player.css": "/eggsplosive/static/media/Lapin.ef9ebdce.png",
+  "static/media/chocolate.png": "/eggsplosive/static/media/chocolate.9ad77424.png",
+  "static/media/egg.png": "/eggsplosive/static/media/egg.16277a7e.png",
+  "static/media/milk.png": "/eggsplosive/static/media/milk.e062d4d5.png"
+}
