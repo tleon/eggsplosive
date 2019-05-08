@@ -17,7 +17,8 @@ class EggCollection extends Component {
         'exotic': '#9933CC',
         'masterwork': '#CC0000',
         'ascended': '#c0ca33'
-      }
+      }, 
+      myEggs: []
     }
     this.getEggs();
 
@@ -28,25 +29,35 @@ class EggCollection extends Component {
       this.setState({ eggs });
     })
   }
+  getMyEggs = () => {
+    return localStorage.getItem('collection').split(" ");
+    
+  }
+
+  isInMyCollection = (egg) => {
+    const myEggsId = this.getMyEggs();
+    return myEggsId.indexOf(egg.$loki + "") === -1;
+  }
   
 
   render() {
-    const { eggs } = this.state;
-    const { border } = this.state;
+    const { eggs, border } = this.state;
+    console.log(this.getMyEggs().length)
     return (
       <div className="App container-fluid">
+        <h2>{this.getMyEggs().length - 1} / 100</h2>
         <div className="row">
           {eggs.map((egg, index) =>
-            <div className="col-3">
+            <div key={index} className="col-3">
               <MDBCol style={{ marginBottom: "10px" }}>
-                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}` }}>
+                <MDBCard style={{ width: "22rem", border: `5px solid ${border[egg.rarity]}`, filter: `grayscale(${this.isInMyCollection(egg) ? '1' : '0'})` }}>
                   <div className="row d-flex justify-content-center">
                     <MDBCardImage style={{ width: "7rem" }} className="img-fluid" key={`img-${index}`} src={egg.image} waves />
                   </div>
                   <MDBCardBody>
                     <MDBCardTitle key={`name-${index}`}>{egg.name}</MDBCardTitle>
                     <MDBCardText>
-                      {egg.power}
+                      Rarity : {egg.rarity}
                     </MDBCardText>
                   </MDBCardBody>
                 </MDBCard>
