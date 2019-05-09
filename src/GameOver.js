@@ -8,16 +8,14 @@ class GameOver extends Component {
       <div className="GameOver">
         <div className="modal-wrapper">
           <div className="modal-body">
-            <p>
-              <h1>Game Over !</h1>
-                  <Link exact to="/" >
-                      <button
-                        className="gameOver"
-                        type="button">
-                        Back to menu
-                      </button>
-                  </Link>
-              </p> 
+            <h1>Game Over !</h1>
+            <Link to="/" >
+              <button
+                className="gameOver"
+                type="button">
+                Back to menu
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -17,6 +17,10 @@ class Player extends Component {
     this.refresh = setInterval(this.refreshRender, 40)
   }
 
+  componentWillUnmount() {
+    clearInterval(this.refresh);
+  }
+
   refreshRender = () => {
     this.setState({
       x: this.x,
