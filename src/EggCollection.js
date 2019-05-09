@@ -23,6 +23,20 @@ class EggCollection extends Component {
     this.getEggs();
 
   }
+  componentWillMount() {
+    if(!localStorage.getItem("collection")){
+      localStorage.setItem('collection', "");
+    }
+    if(!localStorage.getItem("eggs")){
+      localStorage.setItem('eggs', "");
+    }
+    if(!localStorage.getItem("chocolates")){
+      localStorage.setItem('chocolates', "");
+    }
+    if(!localStorage.getItem("milk")){
+      localStorage.setItem('milk', "");
+    }
+  }
   getEggs = () => {
     axios.get('http://easteregg.wildcodeschool.fr/api/eggs').then(r => {
       const eggs = r.data;
