@@ -38,8 +38,9 @@ class EggCollection extends Component {
     }
   }
   getEggs = () => {
-    axios.get('https://tours.wilders.dev/api/eggs').then(r => {
+    axios.get('eggs.json').then(r => {
       const eggs = r.data;
+      console.log(eggs);
       this.setState({ eggs });
     })
   }

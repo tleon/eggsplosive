@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "5cac51240d488f0da6151bcd",
+    "name": "Egg of Tuna",
+    "color": "#7e3703",
+    "caliber": "L",
+    "farming": 3,
+    "country": "KP",
+    "rarity": "junk",
+    "image": "https://cdn.shopify.com/s/files/1/0993/5182/products/CXBO_Chocolate_Disco_Egg_large.png?v=1519913456",
+    "power": "decrease physical proctection:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 1,
+    "validity": "2019-06-09T15:20:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bce",
+    "name": "Egg of Flounder Winter",
+    "color": "#0a567f",
+    "caliber": "M",
+    "farming": 1,
+    "country": "SN",
+    "rarity": "legendary",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "decrease physical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 2,
+    "validity": "2019-06-09T11:46:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bcf",
+    "name": "Egg of Stickleback three spine",
+    "color": "#46313d",
+    "caliber": "M",
+    "farming": 3,
+    "country": "NL",
+    "rarity": "fine",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "decrease physical power:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 3,
+    "validity": "2019-06-09T12:23:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd0",
+    "name": "Egg of Flounder Winter",
+    "color": "#7d2c7f",
+    "caliber": "M",
+    "farming": 3,
+    "country": "MF",
+    "rarity": "junk",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "decrease magical proctection:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 4,
+    "validity": "2019-06-09T15:47:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd1",
+    "name": "Egg of Cobra Indian",
+    "color": "#20253c",
+    "caliber": "M",
+    "farming": 0,
+    "country": "HR",
+    "rarity": "exotic",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "decrease physical power:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 5,
+    "validity": "2019-06-09T13:20:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd2",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#0a667d",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "NP",
+    "rarity": "basic",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "decrease physical proctection:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 6,
+    "validity": "2019-06-09T15:44:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd3",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#582c33",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "IO",
+    "rarity": "ascended",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "decrease movement speed:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 7,
+    "validity": "2019-06-09T15:39:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd4",
+    "name": "Egg of Stickleback three spine",
+    "color": "#7f411c",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "MD",
+    "rarity": "fine",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "increase physical proctection:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 8,
+    "validity": "2019-06-09T16:06:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd5",
+    "name": "Egg of Kiwi",
+    "color": "#5f4622",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "MS",
+    "rarity": "junk",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "increase attack speed:1",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 9,
+    "validity": "2019-06-09T16:08:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd6",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#24003a",
+    "caliber": "S",
+    "farming": 0,
+    "country": "KH",
+    "rarity": "legendary",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease magical proctection:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 10,
+    "validity": "2019-06-09T15:22:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd7",
+    "name": "Egg of Salmon Chum",
+    "color": "#4f3544",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "AM",
+    "rarity": "legendary",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase physical power:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 11,
+    "validity": "2019-06-09T15:42:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd8",
+    "name": "Egg of Chameleon",
+    "color": "#2b6d2a",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "FI",
+    "rarity": "exotic",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "decrease physical power:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 12,
+    "validity": "2019-06-09T15:47:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bd9",
+    "name": "Egg of Salmon Chum",
+    "color": "#1b7768",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "PM",
+    "rarity": "legendary",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease attack speed:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 13,
+    "validity": "2019-06-09T11:55:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bda",
+    "name": "Egg of Flounder Winter",
+    "color": "#373d16",
+    "caliber": "L",
+    "farming": 2,
+    "country": "MT",
+    "rarity": "ascended",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "decrease physical proctection:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 14,
+    "validity": "2019-06-09T15:10:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bdb",
+    "name": "Egg of Pumpkinseed",
+    "color": "#331f0b",
+    "caliber": "S",
+    "farming": 2,
+    "country": "BM",
+    "rarity": "ascended",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease magical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 15,
+    "validity": "2019-06-09T14:23:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bdc",
+    "name": "Egg of Tuna",
+    "color": "#437917",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "KZ",
+    "rarity": "exotic",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease movement speed:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 16,
+    "validity": "2019-06-09T15:44:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bdd",
+    "name": "Egg of Bass Rock",
+    "color": "#714a28",
+    "caliber": "S",
+    "farming": 2,
+    "country": "GG",
+    "rarity": "masterwork",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease movement speed:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 17,
+    "validity": "2019-06-09T15:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bde",
+    "name": "Egg of Duck Mallard",
+    "color": "#500e4a",
+    "caliber": "L",
+    "farming": 3,
+    "country": "GT",
+    "rarity": "fine",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "decrease movement speed:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 18,
+    "validity": "2019-06-09T12:03:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bdf",
+    "name": "Egg of Pike Northern",
+    "color": "#567439",
+    "caliber": "M",
+    "farming": 0,
+    "country": "BM",
+    "rarity": "junk",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "decrease attack speed:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 19,
+    "validity": "2019-06-09T12:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be0",
+    "name": "Egg of Carp",
+    "color": "#051b05",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "MX",
+    "rarity": "masterwork",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "increase attack speed:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 20,
+    "validity": "2019-06-09T12:27:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be1",
+    "name": "Egg of Perch",
+    "color": "#393a52",
+    "caliber": "L",
+    "farming": 3,
+    "country": "RO",
+    "rarity": "legendary",
+    "image": "https://banner2.kisspng.com/20180525/lec/kisspng-pokmon-bulbasaur-egg-charmander-drawing-broken-egg-5b07f7302287f2.6863793515272486881415.jpg",
+    "power": "decrease magical power:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 21,
+    "validity": "2019-06-09T15:29:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be2",
+    "name": "Egg of Chameleon",
+    "color": "#2d6151",
+    "caliber": "M",
+    "farming": 1,
+    "country": "KW",
+    "rarity": "basic",
+    "image": "https://banner2.kisspng.com/20180525/lec/kisspng-pokmon-bulbasaur-egg-charmander-drawing-broken-egg-5b07f7302287f2.6863793515272486881415.jpg",
+    "power": "increase physical power:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 22,
+    "validity": "2019-06-09T13:44:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be3",
+    "name": "Egg of Sea lamprey",
+    "color": "#082c55",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "AE",
+    "rarity": "ascended",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "decrease magical power:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 23,
+    "validity": "2019-06-09T15:26:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be4",
+    "name": "Egg of Duck Mallard",
+    "color": "#370e2f",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "PT",
+    "rarity": "junk",
+    "image": "https://cdn.shopify.com/s/files/1/0993/5182/products/CXBO_Chocolate_Disco_Egg_large.png?v=1519913456",
+    "power": "increase health:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 24,
+    "validity": "2019-06-09T12:10:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be5",
+    "name": "Egg of Haddock",
+    "color": "#7c562f",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "CR",
+    "rarity": "legendary",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "increase attack speed:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 25,
+    "validity": "2019-06-09T12:41:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be6",
+    "name": "Egg of Flounder Winter",
+    "color": "#73623b",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "MQ",
+    "rarity": "rare",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease physical power:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 26,
+    "validity": "2019-06-09T13:55:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be7",
+    "name": "Egg of Swordtail Mexican",
+    "color": "#0d3374",
+    "caliber": "L",
+    "farming": 2,
+    "country": "CU",
+    "rarity": "basic",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "increase movement speed:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 27,
+    "validity": "2019-06-09T12:50:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be8",
+    "name": "Egg of Herring Atlantic",
+    "color": "#7b0038",
+    "caliber": "S",
+    "farming": 2,
+    "country": "PG",
+    "rarity": "rare",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "decrease magical proctection:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 28,
+    "validity": "2019-06-09T16:07:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151be9",
+    "name": "Egg of Cobra Indian",
+    "color": "#262c4c",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "MK",
+    "rarity": "ascended",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease attack speed:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 29,
+    "validity": "2019-06-09T13:46:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bea",
+    "name": "Egg of Salmon Chum",
+    "color": "#400576",
+    "caliber": "S",
+    "farming": 3,
+    "country": "HU",
+    "rarity": "ascended",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase attack speed:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 30,
+    "validity": "2019-06-09T15:46:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151beb",
+    "name": "Egg of Carp",
+    "color": "#237f27",
+    "caliber": "M",
+    "farming": 1,
+    "country": "TK",
+    "rarity": "ascended",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "increase movement speed:1",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 31,
+    "validity": "2019-06-09T12:01:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bec",
+    "name": "Egg of Herring Atlantic",
+    "color": "#130d60",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "MF",
+    "rarity": "ascended",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "increase health:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 32,
+    "validity": "2019-06-09T15:18:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bed",
+    "name": "Egg of Goldfish",
+    "color": "#764603",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "AW",
+    "rarity": "junk",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase magical power:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 33,
+    "validity": "2019-06-09T16:11:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bee",
+    "name": "Egg of Duck Mallard",
+    "color": "#782378",
+    "caliber": "XL",
+    "farming": 0,
+    "country": "AI",
+    "rarity": "fine",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease movement speed:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 34,
+    "validity": "2019-06-09T11:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bef",
+    "name": "Egg of Cod Atlantic",
+    "color": "#74223b",
+    "caliber": "M",
+    "farming": 3,
+    "country": "BQ",
+    "rarity": "rare",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease physical power:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 35,
+    "validity": "2019-06-09T12:13:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf0",
+    "name": "Egg of Bullhead Brown",
+    "color": "#2c4434",
+    "caliber": "M",
+    "farming": 2,
+    "country": "PA",
+    "rarity": "exotic",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase attack speed:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 36,
+    "validity": "2019-06-09T12:03:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf1",
+    "name": "Egg of Sturgeon Atlantic",
+    "color": "#4a427c",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "GE",
+    "rarity": "junk",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "decrease physical proctection:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 37,
+    "validity": "2019-06-09T11:52:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf2",
+    "name": "Egg of Frog Bull",
+    "color": "#48733b",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "TJ",
+    "rarity": "exotic",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/sunnyqueen.com.au/images/about-eggs/tip-egg-size-guide-x-jumbo-%402x.png",
+    "power": "increase magical power:1",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 38,
+    "validity": "2019-06-09T15:34:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf3",
+    "name": "Egg of Ostrich",
+    "color": "#354e37",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "CC",
+    "rarity": "ascended",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "increase movement speed:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 39,
+    "validity": "2019-06-09T14:57:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf4",
+    "name": "Egg of Cod Atlantic",
+    "color": "#130974",
+    "caliber": "S",
+    "farming": 1,
+    "country": "GB",
+    "rarity": "fine",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease attack speed:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 40,
+    "validity": "2019-06-09T13:02:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf5",
+    "name": "Egg of Eel American",
+    "color": "#2b3725",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "CI",
+    "rarity": "fine",
+    "image": "http://miam-images.m.i.pic.centerblog.net/70cb07b9.png",
+    "power": "increase physical power:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 41,
+    "validity": "2019-06-09T11:51:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf6",
+    "name": "Egg of Chameleon",
+    "color": "#536920",
+    "caliber": "3XL",
+    "farming": 0,
+    "country": "MN",
+    "rarity": "junk",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease physical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 42,
+    "validity": "2019-06-09T12:18:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf7",
+    "name": "Egg of Trout Rainbow",
+    "color": "#296a0c",
+    "caliber": "L",
+    "farming": 3,
+    "country": "BI",
+    "rarity": "ascended",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase health:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 43,
+    "validity": "2019-06-09T15:25:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf8",
+    "name": "Egg of Alligator American",
+    "color": "#012817",
+    "caliber": "S",
+    "farming": 3,
+    "country": "IL",
+    "rarity": "junk",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease health:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 44,
+    "validity": "2019-06-09T12:51:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bf9",
+    "name": "Egg of Gull Herring",
+    "color": "#025520",
+    "caliber": "M",
+    "farming": 2,
+    "country": "MQ",
+    "rarity": "exotic",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "increase physical proctection:1",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 45,
+    "validity": "2019-06-09T12:25:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bfa",
+    "name": "Egg of Goldfish",
+    "color": "#5e4141",
+    "caliber": "L",
+    "farming": 1,
+    "country": "KM",
+    "rarity": "legendary",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 46,
+    "validity": "2019-06-09T13:43:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bfb",
+    "name": "Egg of Salmon Chum",
+    "color": "#46020f",
+    "caliber": "S",
+    "farming": 2,
+    "country": "SA",
+    "rarity": "rare",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "increase physical power:1",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 47,
+    "validity": "2019-06-09T14:53:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bfc",
+    "name": "Egg of Cod Atlantic",
+    "color": "#435a19",
+    "caliber": "M",
+    "farming": 1,
+    "country": "GA",
+    "rarity": "rare",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase physical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 48,
+    "validity": "2019-06-09T12:16:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bfd",
+    "name": "Egg of Frog leopard",
+    "color": "#7c5478",
+    "caliber": "M",
+    "farming": 1,
+    "country": "PF",
+    "rarity": "fine",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "decrease magical power:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 49,
+    "validity": "2019-06-09T14:54:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bfe",
+    "name": "Egg of Cobra Indian",
+    "color": "#5c1e7b",
+    "caliber": "S",
+    "farming": 3,
+    "country": "AE",
+    "rarity": "ascended",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "decrease attack speed:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 50,
+    "validity": "2019-06-09T14:59:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151bff",
+    "name": "Egg of Cod Atlantic",
+    "color": "#0e474a",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "BH",
+    "rarity": "masterwork",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease health:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 51,
+    "validity": "2019-06-09T14:52:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c00",
+    "name": "Egg of Frog leopard",
+    "color": "#6b1831",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "SB",
+    "rarity": "exotic",
+    "image": "https://rebekahlang.files.wordpress.com/2015/08/pokemon-egg-png.png",
+    "power": "increase health:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 52,
+    "validity": "2019-06-09T15:04:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c01",
+    "name": "Egg of Flounder Winter",
+    "color": "#2d0141",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "OM",
+    "rarity": "junk",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "decrease magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 53,
+    "validity": "2019-06-09T12:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c02",
+    "name": "Egg of Hellbender",
+    "color": "#387602",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "CW",
+    "rarity": "legendary",
+    "image": "https://rebekahlang.files.wordpress.com/2015/08/pokemon-egg-png.png",
+    "power": "increase attack speed:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 54,
+    "validity": "2019-06-09T13:43:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c03",
+    "name": "Egg of Stickleback three spine",
+    "color": "#5c4622",
+    "caliber": "L",
+    "farming": 3,
+    "country": "SO",
+    "rarity": "rare",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "increase physical power:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 55,
+    "validity": "2019-06-09T12:26:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c04",
+    "name": "Egg of Duck Wood",
+    "color": "#305e66",
+    "caliber": "L",
+    "farming": 0,
+    "country": "PS",
+    "rarity": "junk",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "increase magical power:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 56,
+    "validity": "2019-06-09T15:08:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c05",
+    "name": "Egg of Flounder Winter",
+    "color": "#10466f",
+    "caliber": "L",
+    "farming": 0,
+    "country": "BF",
+    "rarity": "junk",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "decrease movement speed:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 57,
+    "validity": "2019-06-09T14:20:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c06",
+    "name": "Egg of Chameleon",
+    "color": "#5e1803",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "SN",
+    "rarity": "legendary",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "increase magical proctection:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 58,
+    "validity": "2019-06-09T14:50:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c07",
+    "name": "Egg of Salmon Chum",
+    "color": "#442609",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "LC",
+    "rarity": "ascended",
+    "image": "https://ghraouichocolate.com/wp-content/uploads/Ghraoui-Easter-Egg-Chocolate-Huge@2x.png",
+    "power": "increase movement speed:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 59,
+    "validity": "2019-06-09T15:50:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c08",
+    "name": "Egg of Trout Rainbow",
+    "color": "#61567f",
+    "caliber": "M",
+    "farming": 0,
+    "country": "MF",
+    "rarity": "junk",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "decrease attack speed:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 60,
+    "validity": "2019-06-09T15:50:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c09",
+    "name": "Egg of Bass Rock",
+    "color": "#3a4115",
+    "caliber": "L",
+    "farming": 2,
+    "country": "DM",
+    "rarity": "junk",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/sunnyqueen.com.au/images/about-eggs/tip-egg-size-guide-x-jumbo-%402x.png",
+    "power": "increase attack speed:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 61,
+    "validity": "2019-06-09T14:43:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0a",
+    "name": "Egg of Bass Rock",
+    "color": "#15730a",
+    "caliber": "S",
+    "farming": 1,
+    "country": "TC",
+    "rarity": "ascended",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "decrease magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 62,
+    "validity": "2019-06-09T15:14:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0b",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#165b68",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "BQ",
+    "rarity": "masterwork",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "decrease magical proctection:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 63,
+    "validity": "2019-06-09T15:39:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0c",
+    "name": "Egg of Pigeon",
+    "color": "#16221d",
+    "caliber": "M",
+    "farming": 2,
+    "country": "CU",
+    "rarity": "masterwork",
+    "image": "https://banner2.kisspng.com/20180525/lec/kisspng-pokmon-bulbasaur-egg-charmander-drawing-broken-egg-5b07f7302287f2.6863793515272486881415.jpg",
+    "power": "increase health:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 64,
+    "validity": "2019-06-09T13:02:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0d",
+    "name": "Egg of Gar longnose",
+    "color": "#542951",
+    "caliber": "S",
+    "farming": 0,
+    "country": "IO",
+    "rarity": "ascended",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "increase magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 65,
+    "validity": "2019-06-09T12:17:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0e",
+    "name": "Egg of Alligator American",
+    "color": "#685f2d",
+    "caliber": "XL",
+    "farming": 0,
+    "country": "SL",
+    "rarity": "junk",
+    "image": "http://miam-images.m.i.pic.centerblog.net/70cb07b9.png",
+    "power": "increase physical power:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 66,
+    "validity": "2019-06-09T11:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c0f",
+    "name": "Egg of Perch",
+    "color": "#1c165d",
+    "caliber": "L",
+    "farming": 1,
+    "country": "SS",
+    "rarity": "exotic",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/sunnyqueen.com.au/images/about-eggs/tip-egg-size-guide-x-jumbo-%402x.png",
+    "power": "increase attack speed:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 67,
+    "validity": "2019-06-09T12:31:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c10",
+    "name": "Egg of Chameleon",
+    "color": "#015054",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "EH",
+    "rarity": "junk",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase magical proctection:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 68,
+    "validity": "2019-06-09T15:46:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c11",
+    "name": "Egg of Bass Rock",
+    "color": "#5f285c",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "MG",
+    "rarity": "legendary",
+    "image": "https://ghraouichocolate.com/wp-content/uploads/Ghraoui-Easter-Egg-Chocolate-Huge@2x.png",
+    "power": "decrease magical power:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 69,
+    "validity": "2019-06-09T12:34:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c12",
+    "name": "Egg of Gar longnose",
+    "color": "#0a486f",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "MX",
+    "rarity": "masterwork",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease movement speed:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 70,
+    "validity": "2019-06-09T13:36:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c13",
+    "name": "Egg of Hawk Night",
+    "color": "#366a21",
+    "caliber": "M",
+    "farming": 2,
+    "country": "BG",
+    "rarity": "rare",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease movement speed:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 71,
+    "validity": "2019-06-09T14:08:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c14",
+    "name": "Egg of Salamander Tiger",
+    "color": "#277a63",
+    "caliber": "M",
+    "farming": 1,
+    "country": "AX",
+    "rarity": "exotic",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "decrease physical proctection:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 72,
+    "validity": "2019-06-09T15:58:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c15",
+    "name": "Egg of Carp",
+    "color": "#397f39",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "MD",
+    "rarity": "exotic",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/sunnyqueen.com.au/images/about-eggs/tip-egg-size-guide-x-jumbo-%402x.png",
+    "power": "decrease movement speed:8",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 73,
+    "validity": "2019-06-09T15:02:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c16",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#0c5b5d",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "UZ",
+    "rarity": "exotic",
+    "image": "https://i1.wp.com/borgattis.com/wp-content/uploads/2019/03/blue-egg.png?fit=861%2C877&ssl=1",
+    "power": "decrease physical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 74,
+    "validity": "2019-06-09T13:36:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c17",
+    "name": "Egg of Pike Northern",
+    "color": "#066603",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "MH",
+    "rarity": "exotic",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase physical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 75,
+    "validity": "2019-06-09T14:35:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c18",
+    "name": "Egg of Bass Rock",
+    "color": "#673147",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "JP",
+    "rarity": "exotic",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "decrease magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 76,
+    "validity": "2019-06-09T13:49:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c19",
+    "name": "Egg of Gila Monster",
+    "color": "#3d062b",
+    "caliber": "M",
+    "farming": 0,
+    "country": "WS",
+    "rarity": "junk",
+    "image": "https://rebekahlang.files.wordpress.com/2015/08/pokemon-egg-png.png",
+    "power": "decrease attack speed:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 77,
+    "validity": "2019-06-09T14:27:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1a",
+    "name": "Egg of Bass Rock",
+    "color": "#76305e",
+    "caliber": "L",
+    "farming": 2,
+    "country": "NI",
+    "rarity": "fine",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "decrease magical power:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 78,
+    "validity": "2019-06-09T13:45:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1b",
+    "name": "Egg of Sturgeon Atlantic",
+    "color": "#564d03",
+    "caliber": "L",
+    "farming": 3,
+    "country": "LR",
+    "rarity": "rare",
+    "image": "https://ghraouichocolate.com/wp-content/uploads/Ghraoui-Easter-Egg-Chocolate-Huge@2x.png",
+    "power": "decrease health:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 79,
+    "validity": "2019-06-09T14:31:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1c",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#541d0b",
+    "caliber": "L",
+    "farming": 1,
+    "country": "FK",
+    "rarity": "basic",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "increase physical power:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 80,
+    "validity": "2019-06-09T14:03:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1d",
+    "name": "Egg of Gar longnose",
+    "color": "#775c75",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "GL",
+    "rarity": "exotic",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "decrease health:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 81,
+    "validity": "2019-06-09T15:22:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1e",
+    "name": "Egg of Ostrich",
+    "color": "#770032",
+    "caliber": "S",
+    "farming": 1,
+    "country": "VU",
+    "rarity": "junk",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "increase magical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 82,
+    "validity": "2019-06-09T13:29:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c1f",
+    "name": "Egg of Bullhead Brown",
+    "color": "#647b54",
+    "caliber": "L",
+    "farming": 3,
+    "country": "YT",
+    "rarity": "ascended",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase magical power:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 83,
+    "validity": "2019-06-09T12:31:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c20",
+    "name": "Egg of Eel American",
+    "color": "#152877",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "GF",
+    "rarity": "rare",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "decrease magical power:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 84,
+    "validity": "2019-06-09T11:59:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c21",
+    "name": "Egg of Pigeon",
+    "color": "#3f3523",
+    "caliber": "L",
+    "farming": 0,
+    "country": "BW",
+    "rarity": "masterwork",
+    "image": "http://miam-images.m.i.pic.centerblog.net/o/094d0369.png",
+    "power": "increase health:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 85,
+    "validity": "2019-06-09T13:31:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c22",
+    "name": "Egg of Hellbender",
+    "color": "#554a48",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "PY",
+    "rarity": "exotic",
+    "image": "https://s3-ap-southeast-2.amazonaws.com/sunnyqueen.com.au/images/about-eggs/tip-egg-size-guide-x-jumbo-%402x.png",
+    "power": "increase movement speed:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 86,
+    "validity": "2019-06-09T15:25:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c23",
+    "name": "Egg of Flounder Winter",
+    "color": "#662e48",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "BM",
+    "rarity": "basic",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase magical proctection:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 87,
+    "validity": "2019-06-09T12:53:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c24",
+    "name": "Egg of Trout brown",
+    "color": "#034967",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "TR",
+    "rarity": "ascended",
+    "image": "https://ghraouichocolate.com/wp-content/uploads/Ghraoui-Easter-Egg-Chocolate-Huge@2x.png",
+    "power": "decrease physical power:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 88,
+    "validity": "2019-06-09T12:48:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c25",
+    "name": "Egg of Ostrich",
+    "color": "#686847",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "ES",
+    "rarity": "junk",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease health:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 89,
+    "validity": "2019-06-09T13:25:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c26",
+    "name": "Egg of Herring Atlantic",
+    "color": "#386a31",
+    "caliber": "L",
+    "farming": 3,
+    "country": "OM",
+    "rarity": "exotic",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "increase movement speed:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 90,
+    "validity": "2019-06-09T13:33:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c27",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#714c2d",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "AM",
+    "rarity": "fine",
+    "image": "https://cdn.shopify.com/s/files/1/0993/5182/products/CXBO_Chocolate_Disco_Egg_large.png?v=1519913456",
+    "power": "increase physical proctection:3",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 91,
+    "validity": "2019-06-09T14:24:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c28",
+    "name": "Egg of Hawk Night",
+    "color": "#526201",
+    "caliber": "3XL",
+    "farming": 0,
+    "country": "KN",
+    "rarity": "ascended",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase physical power:7",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 92,
+    "validity": "2019-06-09T15:35:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c29",
+    "name": "Egg of Gila Monster",
+    "color": "#0d7403",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "VG",
+    "rarity": "basic",
+    "image": "https://vignette.wikia.nocookie.net/bubble-gum-simulator/images/7/72/Lucky_Egg.png/revision/latest?cb=20190315192058",
+    "power": "decrease physical power:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 93,
+    "validity": "2019-06-09T11:53:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2a",
+    "name": "Egg of Hellbender",
+    "color": "#075712",
+    "caliber": "2XL",
+    "farming": 2,
+    "country": "PE",
+    "rarity": "basic",
+    "image": "https://shop.whitehousehistory.org/media/catalog/product/t/r/trump_egg_gold_shop.png",
+    "power": "increase attack speed:2",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 94,
+    "validity": "2019-06-09T14:26:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2b",
+    "name": "Egg of Cobra Indian",
+    "color": "#31057d",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "KP",
+    "rarity": "ascended",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "increase physical proctection:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 95,
+    "validity": "2019-06-09T15:55:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2c",
+    "name": "Egg of Perch",
+    "color": "#506b6d",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "CZ",
+    "rarity": "fine",
+    "image": "https://a9effd958e0dc59aaf3b-80520a33cc33a15351bd958c9b8ecc55.ssl.cf2.rackcdn.com/one-step/graphic-egg.png",
+    "power": "decrease movement speed:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 96,
+    "validity": "2019-06-09T15:36:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2d",
+    "name": "Egg of Goldfish",
+    "color": "#537a3d",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "WS",
+    "rarity": "fine",
+    "image": "https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/ad5d66afe65240749572864e85109ec9_Large.png",
+    "power": "increase physical proctection:4",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 97,
+    "validity": "2019-06-09T15:12:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2e",
+    "name": "Egg of Alligator American",
+    "color": "#3f4f7b",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "LT",
+    "rarity": "rare",
+    "image": "https://www.sideshow.com/storage/product-images/903635/velociraptor-egg_jurassic-park_silo.png",
+    "power": "decrease magical proctection:5",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 98,
+    "validity": "2019-06-09T12:31:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c2f",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#2f0654",
+    "caliber": "M",
+    "farming": 0,
+    "country": "BW",
+    "rarity": "legendary",
+    "image": "https://www.buttermilk.co.uk/wp-content/uploads/2018/02/css-egg-web.png",
+    "power": "decrease attack speed:6",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 99,
+    "validity": "2019-06-09T13:54:18.852Z"
+  },
+  {
+    "id": "5cac51240d488f0da6151c30",
+    "name": "Egg of Herring Atlantic",
+    "color": "#52353d",
+    "caliber": "L",
+    "farming": 2,
+    "country": "VU",
+    "rarity": "legendary",
+    "image": "http://pixelartmaker.com/art/2480187d8bd9102.png",
+    "power": "increase health:9",
+    "meta": {
+      "revision": 0,
+      "created": 1554982481291,
+      "version": 0
+    },
+    "$loki": 100,
+    "validity": "2019-06-09T14:07:18.852Z"
+  }
+]
